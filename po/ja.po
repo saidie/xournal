@@ -29,7 +29,7 @@ msgstr ""
 #: ../src/xo-callbacks.c:3228
 #, c-format
 msgid "Error opening file '%s'"
-msgstr "ファイルを開けませんでした: '%s'"
+msgstr "'%s'を開けませんでした。"
 
 #: ../src/xo-interface.c:355 ../src/xo-interface.c:3012 ../src/xo-misc.c:1501
 msgid "Xournal"
@@ -41,7 +41,7 @@ msgstr "ファイル(_F)"
 
 #: ../src/xo-interface.c:376
 msgid "Annotate PD_F"
-msgstr "PDF に注釈を付ける(_F)"
+msgstr "PDFに注釈を付ける(_F)"
 
 #: ../src/xo-interface.c:401
 msgid "Recent Doc_uments"
@@ -49,35 +49,35 @@ msgstr "最近開いたドキュメント(_u)"
 
 #: ../src/xo-interface.c:408
 msgid "0"
-msgstr "0"
+msgstr ""
 
 #: ../src/xo-interface.c:412
 msgid "1"
-msgstr "1"
+msgstr ""
 
 #: ../src/xo-interface.c:416
 msgid "2"
-msgstr "2"
+msgstr ""
 
 #: ../src/xo-interface.c:420
 msgid "3"
-msgstr "3"
+msgstr ""
 
 #: ../src/xo-interface.c:424
 msgid "4"
-msgstr "4"
+msgstr ""
 
 #: ../src/xo-interface.c:428
 msgid "5"
-msgstr "5"
+msgstr ""
 
 #: ../src/xo-interface.c:432
 msgid "6"
-msgstr "6"
+msgstr ""
 
 #: ../src/xo-interface.c:436
 msgid "7"
-msgstr "7"
+msgstr ""
 
 #: ../src/xo-interface.c:445
 msgid "Print Options"
@@ -85,7 +85,7 @@ msgstr "印刷設定"
 
 #: ../src/xo-interface.c:460
 msgid "_Export to PDF"
-msgstr "PDF にエクスポート(_E)"
+msgstr "PDFにエクスポート(_E)"
 
 #: ../src/xo-interface.c:476
 msgid "_Edit"
@@ -113,7 +113,7 @@ msgstr "ズーム(_Z)"
 
 #: ../src/xo-interface.c:585
 msgid "Page _Width"
-msgstr "幅を合わせる(_W)"
+msgstr "ページの幅を合わせる(_W)"
 
 #: ../src/xo-interface.c:596
 msgid "_Set Zoom"
@@ -137,11 +137,11 @@ msgstr "最後のページ(_L)"
 
 #: ../src/xo-interface.c:654
 msgid "_Show Layer"
-msgstr "レイヤを表示(_S)"
+msgstr "上のレイヤを表示(_S)"
 
 #: ../src/xo-interface.c:662
 msgid "_Hide Layer"
-msgstr "レイヤを隠す(_H)"
+msgstr "現在のレイヤを隠す(_H)"
 
 #: ../src/xo-interface.c:670
 msgid "_Page"
@@ -161,15 +161,15 @@ msgstr "最後に新規ページ挿入(_E)"
 
 #: ../src/xo-interface.c:689
 msgid "_Delete Page"
-msgstr "ページを削除する(_D)"
+msgstr "ページを削除(_D)"
 
 #: ../src/xo-interface.c:698
 msgid "_New Layer"
-msgstr "新規レイヤの作成(_N)"
+msgstr "新規レイヤを作成(_N)"
 
 #: ../src/xo-interface.c:702
 msgid "Delete La_yer"
-msgstr "レイヤの削除(_y)"
+msgstr "現在のレイヤを削除(_y)"
 
 #: ../src/xo-interface.c:706
 msgid "_Flatten"
@@ -215,7 +215,7 @@ msgstr "その他..."
 #: ../src/xo-interface.c:1043 ../src/xo-interface.c:1290
 #: ../src/xo-interface.c:1372
 msgid "NA"
-msgstr "無効" # TODO
+msgstr "無効"
 
 #: ../src/xo-interface.c:771
 msgid "Paper _Style"
@@ -227,11 +227,11 @@ msgstr "無地(_p)"
 
 #: ../src/xo-interface.c:784
 msgid "_lined"
-msgstr "縦線(_L)" # TODO
+msgstr "縦線付き横罫(_l)"
 
 #: ../src/xo-interface.c:790
 msgid "_ruled"
-msgstr "罫線(_R)" # TODO
+msgstr "横罫(_r)"
 
 #: ../src/xo-interface.c:796
 msgid "_graph"
@@ -247,15 +247,15 @@ msgstr "背景画像を読み込む(_L)"
 
 #: ../src/xo-interface.c:824
 msgid "Background Screens_hot"
-msgstr "背景のスクリーンショット(_h)"
+msgstr "スクリーンショットを背景にする(_h)"
 
 #: ../src/xo-interface.c:833
 msgid "Default _Paper"
-msgstr "デフォルトの用紙(_P)"
+msgstr "標準の用紙にする(_P)"
 
 #: ../src/xo-interface.c:837
 msgid "Set As De_fault"
-msgstr "現在の設定をデフォルトにする(_f)"
+msgstr "現在の設定を標準にする(_f)"
 
 #: ../src/xo-interface.c:841
 msgid "_Tools"
@@ -288,7 +288,7 @@ msgstr "画像(_I)"
 
 #: ../src/xo-interface.c:898
 msgid "_Shape Recognizer"
-msgstr "形状認識(_S)" # TODO
+msgstr "図形認識描画(_S)"
 
 #: ../src/xo-interface.c:905
 msgid "Ru_ler"
@@ -297,7 +297,7 @@ msgstr "定規(_l)"
 #: ../src/xo-interface.c:917 ../src/xo-interface.c:1250
 #: ../src/xo-interface.c:1332
 msgid "Select Re_gion"
-msgstr "範囲を選択(_g)"
+msgstr "領域選択(_g)"
 
 #: ../src/xo-interface.c:926 ../src/xo-interface.c:1256
 #: ../src/xo-interface.c:1338
@@ -307,12 +307,12 @@ msgstr "矩形選択(_R)"
 #: ../src/xo-interface.c:935 ../src/xo-interface.c:1262
 #: ../src/xo-interface.c:1344
 msgid "_Vertical Space"
-msgstr "行間を変える(_V)" # TODO
+msgstr "行間を変える(_V)"
 
 #: ../src/xo-interface.c:944 ../src/xo-interface.c:1268
 #: ../src/xo-interface.c:1350
 msgid "H_and Tool"
-msgstr "選択ツール(_a)" # TODO
+msgstr "ハンドツール(_a)"
 
 #: ../src/xo-interface.c:957
 msgid "_Color"
@@ -344,7 +344,7 @@ msgstr "水色(_u)"
 
 #: ../src/xo-interface.c:1009
 msgid "light gr_een"
-msgstr "薄緑(_e)"
+msgstr "黄緑(_e)"
 
 #: ../src/xo-interface.c:1015
 msgid "_magenta"
@@ -368,22 +368,22 @@ msgstr "ペン設定(_O)"
 
 #: ../src/xo-interface.c:1055
 msgid "_very fine"
-msgstr "極細(_v)" # TODO
+msgstr "極細(_v)"
 
 #: ../src/xo-interface.c:1061 ../src/xo-interface.c:1092
 #: ../src/xo-interface.c:1140
 msgid "_fine"
-msgstr "細(_f)" # TODO
+msgstr "細(_f)"
 
 #: ../src/xo-interface.c:1067 ../src/xo-interface.c:1098
 #: ../src/xo-interface.c:1146
 msgid "_medium"
-msgstr "中(_m)" # TODO
+msgstr "中(_m)"
 
 #: ../src/xo-interface.c:1073 ../src/xo-interface.c:1104
 #: ../src/xo-interface.c:1152
 msgid "_thick"
-msgstr "太(_t)" # TODO
+msgstr "太(_t)"
 
 #: ../src/xo-interface.c:1079
 msgid "ver_y thick"
@@ -395,15 +395,15 @@ msgstr "消しゴム設定(_n)"
 
 #: ../src/xo-interface.c:1115
 msgid "_standard"
-msgstr "標準(_s)" # TODO
+msgstr "標準(_s)"
 
 #: ../src/xo-interface.c:1121
 msgid "_whiteout"
-msgstr "白塗りつぶし(_w)" # TODO
+msgstr "白塗りつぶし(_w)"
 
 #: ../src/xo-interface.c:1127
 msgid "_delete strokes"
-msgstr "線を削除(_d)"
+msgstr "ストロークを削除(_d)"
 
 #: ../src/xo-interface.c:1133
 msgid "Highlighter Opt_ions"
@@ -431,7 +431,7 @@ msgstr "標準テキスト(_x)"
 
 #: ../src/xo-interface.c:1190
 msgid "Set As Default"
-msgstr "標準にする" # TODO
+msgstr "現在の設定を標準にする"
 
 #: ../src/xo-interface.c:1194
 msgid "_Options"
@@ -439,43 +439,43 @@ msgstr "オプション(_O)"
 
 #: ../src/xo-interface.c:1201
 msgid "Use _XInput"
-msgstr "xinputを使う(_X)"
+msgstr "XInputを使う(_X)"
 
 #: ../src/xo-interface.c:1205
 msgid "_Eraser Tip"
-msgstr "消しゴムチップ(_E)" # TODO
+msgstr "テールスイッチ消しゴムを使う(_E)"
 
 #: ../src/xo-interface.c:1209
 msgid "_Pressure sensitivity"
-msgstr "筆圧感度(_P)"
+msgstr "筆圧感知を使う(_P)"
 
 #: ../src/xo-interface.c:1213
 msgid "Button _2 Mapping"
-msgstr "ボタン2設定(_2)"
+msgstr "ボタン2の設定(_2)"
 
 #: ../src/xo-interface.c:1278 ../src/xo-interface.c:1360
 msgid "_Link to Primary Brush"
-msgstr "主要ブラシにリンク(_L)" # TODO
+msgstr "常にメインブラシと同じブラシを使う(_L)"
 
 #: ../src/xo-interface.c:1284 ../src/xo-interface.c:1366
 msgid "_Copy of Current Brush"
-msgstr "現在のブラシをコピー(_C)" # TODO
+msgstr "現在のブラシを保存して使う(_C)"
 
 #: ../src/xo-interface.c:1295
 msgid "Button _3 Mapping"
-msgstr "ボタン3設定(_3)"
+msgstr "ボタン3の設定(_3)"
 
 #: ../src/xo-interface.c:1377
 msgid "Buttons Switch Mappings"
-msgstr "マッピングスイッチボタン" # TODO
+msgstr "マッピング切り替えを有効化"
 
 #: ../src/xo-interface.c:1386
 msgid "_Progressive Backgrounds"
-msgstr "先進的な背景(_P)" # TODO
+msgstr "先進的な背景(_P)"
 
 #: ../src/xo-interface.c:1390
 msgid "Print Paper _Ruling"
-msgstr "罫線の印刷(_R)" # TODO
+msgstr "罫線の印刷(_R)"
 
 #: ../src/xo-interface.c:1394
 msgid "Autoload pdf.xoj"
@@ -491,15 +491,15 @@ msgstr "メニューの簡略化(_M)"
 
 #: ../src/xo-interface.c:1406
 msgid "Pencil Cursor"
-msgstr "鉛筆カーソル" # TODO
+msgstr "カーソルを鉛筆にする"
 
 #: ../src/xo-interface.c:1415
 msgid "A_uto-Save Preferences"
-msgstr "自動保存設定(_u)"
+msgstr "設定を自動で保存する(_u)"
 
 #: ../src/xo-interface.c:1419
 msgid "_Save Preferences"
-msgstr "保存設定(_S)"
+msgstr "設定を保存(_S)"
 
 #: ../src/xo-interface.c:1423
 msgid "_Help"
@@ -515,7 +515,7 @@ msgstr "保存"
 
 #: ../src/xo-interface.c:1452
 msgid "New"
-msgstr "新規作成" # TODO
+msgstr "新規"
 
 #: ../src/xo-interface.c:1457
 msgid "Open"
@@ -563,7 +563,7 @@ msgstr "縮小"
 
 #: ../src/xo-interface.c:1544 ../src/xo-interface.c:3106
 msgid "Page Width"
-msgstr "幅を合わせる"
+msgstr "ページの幅を合わせる"
 
 #: ../src/xo-interface.c:1550
 msgid "Zoom In"
@@ -575,7 +575,7 @@ msgstr "標準のサイズ"
 
 #: ../src/xo-interface.c:1560 ../src/xo-interface.c:3065
 msgid "Set Zoom"
-msgstr "倍率を設定"
+msgstr "倍率を指定する"
 
 #: ../src/xo-interface.c:1569
 msgid "Toggle Fullscreen"
@@ -583,7 +583,7 @@ msgstr "フルスクリーンモード"
 
 #: ../src/xo-interface.c:1578
 msgid "Pencil"
-msgstr "鉛筆" # TODO
+msgstr "鉛筆"
 
 #: ../src/xo-interface.c:1584
 msgid "Pen"
@@ -599,15 +599,15 @@ msgstr "ハイライト"
 
 #: ../src/xo-interface.c:1611 ../src/xo-interface.c:1617
 msgid "Text"
-msgstr "テキスト" # TODO
+msgstr "テキスト"
 
 #: ../src/xo-interface.c:1622 ../src/xo-interface.c:1628
 msgid "Image"
-msgstr "画像" # TODO
+msgstr "画像"
 
 #: ../src/xo-interface.c:1633 ../src/xo-interface.c:1639
 msgid "Shape Recognizer"
-msgstr "形状認識" # TODO
+msgstr "図形認識描画"
 
 #: ../src/xo-interface.c:1642 ../src/xo-interface.c:1648
 msgid "Ruler"
@@ -615,7 +615,7 @@ msgstr "定規"
 
 #: ../src/xo-interface.c:1659 ../src/xo-interface.c:1665
 msgid "Select Region"
-msgstr "範囲選択"
+msgstr "領域選択"
 
 #: ../src/xo-interface.c:1670 ../src/xo-interface.c:1676
 msgid "Select Rectangle"
@@ -623,15 +623,15 @@ msgstr "矩形選択"
 
 #: ../src/xo-interface.c:1681 ../src/xo-interface.c:1687
 msgid "Vertical Space"
-msgstr "行間を変える" # TODO
+msgstr "行間を変える"
 
 #: ../src/xo-interface.c:1692
 msgid "Hand Tool"
-msgstr "選択ツール" # TODO
+msgstr "ハンドツール"
 
 #: ../src/xo-interface.c:1711 ../src/xo-interface.c:1715
 msgid "Default"
-msgstr "デフォルト" # TODO
+msgstr "標準に戻す"
 
 #: ../src/xo-interface.c:1719 ../src/xo-interface.c:1722
 msgid "Default Pen"
@@ -639,15 +639,15 @@ msgstr "標準ペン"
 
 #: ../src/xo-interface.c:1733 ../src/xo-interface.c:1741
 msgid "Fine"
-msgstr "細" # TODO
+msgstr "細"
 
 #: ../src/xo-interface.c:1746 ../src/xo-interface.c:1754
 msgid "Medium"
-msgstr "中" # TODO
+msgstr "中"
 
 #: ../src/xo-interface.c:1759 ../src/xo-interface.c:1767
 msgid "Thick"
-msgstr "太" # TODO
+msgstr "太"
 
 #: ../src/xo-interface.c:1786 ../src/xo-interface.c:1793
 msgid "Black"
@@ -675,7 +675,7 @@ msgstr "水色"
 
 #: ../src/xo-interface.c:1858 ../src/xo-interface.c:1865
 msgid "Light Green"
-msgstr "薄緑"
+msgstr "黄緑"
 
 #: ../src/xo-interface.c:1870 ../src/xo-interface.c:1877
 msgid "Magenta"
@@ -699,15 +699,15 @@ msgstr "ページ"
 
 #: ../src/xo-interface.c:1968
 msgid "Set page number"
-msgstr "ページ番号を指定" # TODO
+msgstr "ページ番号を指定"
 
 #: ../src/xo-interface.c:1972
 msgid " of n"
-msgstr "of n" # TODO
+msgstr ""
 
 #: ../src/xo-interface.c:1980
 msgid "  Layer:  "
-msgstr "レイヤー: " # TODO
+msgstr "レイヤー:"
 
 #: ../src/xo-interface.c:2887
 msgid "Set Paper Size"
@@ -723,7 +723,7 @@ msgstr "A4"
 
 #: ../src/xo-interface.c:2908
 msgid "A4 (landscape)"
-msgstr "A4 (横)"
+msgstr "A4(横)"
 
 #: ../src/xo-interface.c:2909
 msgid "US Letter"
@@ -731,7 +731,7 @@ msgstr "レター"
 
 #: ../src/xo-interface.c:2910
 msgid "US Letter (landscape)"
-msgstr "レター (横)"
+msgstr "レター(横)"
 
 #: ../src/xo-interface.c:2911
 msgid "Custom"
@@ -759,7 +759,7 @@ msgstr "ピクセル"
 
 #: ../src/xo-interface.c:2941
 msgid "points"
-msgstr "ポイント" # TODO
+msgstr "ポイント"
 
 #: ../src/xo-interface.c:3001
 msgid "About Xournal"
@@ -771,25 +771,22 @@ msgid ""
 "and other contributors\n"
 "       http://xournal.sourceforge.net/       "
 msgstr ""
-"Written by Denis Auroux\n"
-"and other contributors\n"
-"       http://xournal.sourceforge.net/       "
 
 #: ../src/xo-interface.c:3081
 msgid "Zoom: "
-msgstr "ズーム: " # TODO
+msgstr "ズーム:"
 
 #: ../src/xo-interface.c:3094
 msgid "%"
-msgstr "%"
+msgstr ""
 
 #: ../src/xo-interface.c:3099
 msgid "Normal size (100%)"
-msgstr "標準サイズ (100%)"
+msgstr "標準サイズ(100%)"
 
 #: ../src/xo-interface.c:3113
 msgid "Page Height"
-msgstr "ページの高さ"
+msgstr "ページの高さを合わせる"
 
 #. user aborted on save confirmation
 #: ../src/xo-callbacks.c:68 ../src/xo-file.c:799
@@ -808,12 +805,12 @@ msgstr "PDFファイル"
 
 #: ../src/xo-callbacks.c:87 ../src/xo-callbacks.c:1494
 msgid "Attach file to the journal"
-msgstr "ファイルの添付" # TODo
+msgstr "ファイルの添付"
 
 #. user aborted on save confirmation
 #: ../src/xo-callbacks.c:141
 msgid "Open Journal"
-msgstr "開く" # TODO
+msgstr "ジャーナルを開く"
 
 #: ../src/xo-callbacks.c:152 ../src/xo-callbacks.c:251
 msgid "Xournal files"
@@ -822,16 +819,16 @@ msgstr "Xournalファイル"
 #: ../src/xo-callbacks.c:201 ../src/xo-callbacks.c:296
 #, c-format
 msgid "Error saving file '%s'"
-msgstr "ファイル'%s'の保存に失敗しました。"
+msgstr "'%s'の保存に失敗しました。"
 
 #: ../src/xo-callbacks.c:220
 msgid "Save Journal"
-msgstr "保存" # TODO
+msgstr "ジャーナルを保存"
 
 #: ../src/xo-callbacks.c:277 ../src/xo-callbacks.c:423
 #, c-format
 msgid "Should the file %s be overwritten?"
-msgstr "ファイル'%s'を上書きしますか?" # TODO
+msgstr "'%s'を上書きしますか?"
 
 #: ../src/xo-callbacks.c:376
 msgid "Export to PDF"
@@ -840,28 +837,28 @@ msgstr "PDFにエクスポート"
 #: ../src/xo-callbacks.c:436
 #, c-format
 msgid "Error creating file '%s'"
-msgstr "ファイル'%s'の作成に失敗しました。"
+msgstr "'%s'の作成に失敗しました。"
 
 #: ../src/xo-callbacks.c:1398
 msgid "Pick a Paper Color"
-msgstr "用紙の色を選ぶ" # TODO
+msgstr "用紙の色を選ぶ"
 
 #: ../src/xo-callbacks.c:1463
 msgid "Open Background"
-msgstr "背景画像の読み込み" # TODO
+msgstr "背景画像の読み込み"
 
 #: ../src/xo-callbacks.c:1479
 msgid "Bitmap files"
-msgstr "ビットマップファイル" # TODO
+msgstr "ビットマップファイル"
 
 #: ../src/xo-callbacks.c:1487
 msgid "PS/PDF files (as bitmaps)"
-msgstr "PS/PDFファイル(ビットマップとして)" # TODO
+msgstr "PS/PDFファイル(ビットマップとして)"
 
 #: ../src/xo-callbacks.c:1517
 #, c-format
 msgid "Error opening background '%s'"
-msgstr "背景画像'%s'の読み込みに失敗しました。" # TODO
+msgstr "画像'%s'の読み込みに失敗しました。"
 
 #: ../src/xo-callbacks.c:2110
 msgid "Select Font"
@@ -873,7 +870,7 @@ msgid ""
 " Switching to Layer 1."
 msgstr ""
 "背景レイヤへの書き込みはできません。\n"
-"レイヤ1へ切り替えます。" # TODO
+"レイヤ1へ切り替えます。"
 
 #: ../src/xo-support.c:90 ../src/xo-support.c:114
 #, c-format
@@ -883,17 +880,17 @@ msgstr "pixmapファイル'%s'が見つかりません。"
 #: ../src/xo-file.c:182 ../src/xo-file.c:214
 #, c-format
 msgid "Could not write background '%s'. Continuing anyway."
-msgstr "背景画像'%s'を書き込めませんが、処理を続行します。" # TODO
+msgstr "画像'%s'を書き込めませんが、処理を続行します。"
 
 #: ../src/xo-file.c:326
 #, c-format
 msgid "Invalid file contents"
-msgstr "ファイルの内容が不正です。" # TODO
+msgstr "ファイルの内容が不正です。"
 
 #: ../src/xo-file.c:476
 #, c-format
 msgid "Could not open background '%s'. Setting background to white."
-msgstr "背景画像'%s'が開けませんでした。背景を白にします。"
+msgstr "画像'%s'が開けませんでした。背景を白にします。"
 
 #: ../src/xo-file.c:794
 #, c-format
@@ -901,25 +898,26 @@ msgid ""
 "Could not open background '%s'.\n"
 "Select another file?"
 msgstr ""
-"背景画像'%s'を開けませんでした。\n"
-"別のファイルを開きますか?" # TODO
+"画像'%s'を開けませんでした。\n"
+"別のファイルを開きますか?"
 
 #: ../src/xo-file.c:940
 #, c-format
 msgid "Could not open background '%s'."
-msgstr "背景画像'%s'を開けませんでした。"
+msgstr "画像'%s'を開けませんでした。"
 
 #: ../src/xo-file.c:1189
 msgid "Unable to render one or more PDF pages."
 msgstr "いくつかのPDFのページを描画できませんでした。"
 
+## settings
 #: ../src/xo-file.c:1599
 msgid " the display resolution, in pixels per inch"
-msgstr "ディスプレイ解像度(ピクセル/インチ)" # TODO
+msgstr "ディスプレイ解像度(ピクセル/インチ)"
 
 #: ../src/xo-file.c:1602
 msgid " the initial zoom level, in percent"
-msgstr "初期ズームレベル(%)" # TODO
+msgstr "起動時ズームレベル(%)"
 
 #: ../src/xo-file.c:1605
 msgid " maximize the window at startup (true/false)"
@@ -931,7 +929,7 @@ msgstr "フルスクリーンモードで起動(true/false)"
 
 #: ../src/xo-file.c:1611
 msgid " the window width in pixels (when not maximized)"
-msgstr "最大化しない時のウィンドウの幅(ピクセル)" # TODO
+msgstr "最大化しない時のウィンドウの幅(ピクセル)"
 
 #: ../src/xo-file.c:1614
 msgid " the window height in pixels"
@@ -943,15 +941,15 @@ msgstr "スクロールバーの刻み幅(ピクセル)"
 
 #: ../src/xo-file.c:1620
 msgid " the step increment in the zoom dialog box"
-msgstr "ズームダイアログボックスでの増加量" # TODO
+msgstr "ズームダイアログボックスでの増加量"
 
 #: ../src/xo-file.c:1623
 msgid " the multiplicative factor for zoom in/out"
-msgstr "拡大/縮小時の変化倍率" # TODO
+msgstr "拡大/縮小時の変化倍率"
 
 #: ../src/xo-file.c:1626
 msgid " document view (true = continuous, false = single page)"
-msgstr "ドキュメント表示(true = 連続したページ, false = 単一ページ)" # TODO
+msgstr "ドキュメント表示(true = 連続したページ, false = 単一ページ)"
 
 #: ../src/xo-file.c:1629
 msgid " use XInput extensions (true/false)"
@@ -959,7 +957,7 @@ msgstr "XInput拡張を使う(true/false)"
 
 #: ../src/xo-file.c:1632
 msgid " discard Core Pointer events in XInput mode (true/false)"
-msgstr "XInputモードのコアポインタイベントを無視する(true/false)" # TODO
+msgstr "XInputモードのコアポインタイベントを無視する(true/false)"
 
 #: ../src/xo-file.c:1635
 msgid " ignore events from other devices while drawing (true/false)"
@@ -975,7 +973,7 @@ msgid ""
 "tablets) (true/false)"
 msgstr ""
 "ボタン2と3は描画の代わりにボタンマッピングを交換する (いくつかの "
-"タブレットで有用) (true/false)" # TODO
+"タブレットで有用) (true/false)"
 
 #: ../src/xo-file.c:1644
 msgid ""
@@ -993,11 +991,11 @@ msgstr "筆圧感度に応じて筆跡の太さを変える(true/false)"
 
 #: ../src/xo-file.c:1653
 msgid " minimum width multiplier"
-msgstr "幅の乗数の最小値" # TODO
+msgstr "幅の乗数の最小値"
 
 #: ../src/xo-file.c:1656
 msgid " maximum width multiplier"
-msgstr "幅の乗数の最大値" # TODO
+msgstr "幅の乗数の最大値"
 
 #: ../src/xo-file.c:1659
 msgid ""
@@ -1013,7 +1011,7 @@ msgstr "フルスクリーンモードで表示するコンポーネント(上�
 
 #: ../src/xo-file.c:1665
 msgid " interface has left-handed scrollbar (true/false)"
-msgstr "スクロールバーを左側にする(true/false)" # TODO
+msgstr "スクロールバーを左側にする(true/false)"
 
 #: ../src/xo-file.c:1668
 msgid " hide some unwanted menu or toolbar items (true/false)"
@@ -1045,19 +1043,19 @@ msgstr "cairoでPDFを描画する(遅いが高品質)(true/false)"
 
 #: ../src/xo-file.c:1684
 msgid " the default page width, in points (1/72 in)"
-msgstr "標準ページ幅 (ポイント指定, 1ポイント=1/72インチ)"
+msgstr "標準ページ幅(ポイント指定, 1ポイント = 1/72インチ)"
 
 #: ../src/xo-file.c:1687
 msgid " the default page height, in points (1/72 in)"
-msgstr "標準ページ高さ (ポイント指定, 1ポイント=1/72インチ)"
+msgstr "標準ページ高さ(ポイント指定, 1ポイント = 1/72インチ)"
 
 #: ../src/xo-file.c:1690
 msgid " the default paper color"
-msgstr "標準ページ背景色" # TODO
+msgstr "標準ページ背景色"
 
 #: ../src/xo-file.c:1695
 msgid " the default paper style (plain, lined, ruled, or graph)"
-msgstr "標準用紙スタイル(無地, 縦線付き, 罫線, 方眼)"
+msgstr "標準用紙スタイル(無地, 縦線付き横罫, 横罫, 方眼)"
 
 #: ../src/xo-file.c:1698
 msgid " apply paper style changes to all pages (true/false)"
@@ -1069,22 +1067,22 @@ msgstr "使用する単位(cm, in, px, pt)"
 
 #: ../src/xo-file.c:1704
 msgid " include paper ruling when printing or exporting to PDF (true/false)"
-msgstr "印刷とPDFエクスポートの時、罫線を含める(true/false)" # TODO
+msgstr "印刷とPDFエクスポートの時、罫線を含める(true/false)"
 
 #: ../src/xo-file.c:1707
 msgid " just-in-time update of page backgrounds (true/false)"
-msgstr "背景画像を自動で更新する(true/false)" # TODO
+msgstr "背景画像を自動で更新する(true/false)"
 
 #: ../src/xo-file.c:1710
 msgid ""
 " bitmap resolution of PS/PDF backgrounds rendered using ghostscript (dpi)"
 msgstr ""
-"ghostscriptに渡すPS/PDFの背景ビットマップ解像度(dpi)" # TODO
+"ghostscriptに渡すPS/PDFの背景ビットマップ解像度(dpi)"
 
 #: ../src/xo-file.c:1713
 msgid ""
 " bitmap resolution of PDF backgrounds when printing with libgnomeprint (dpi)"
-msgstr "libgnomeprintに渡すPDFの背景ビットマップ解像度(dpi)" # TODO
+msgstr "libgnomeprintに渡すPDFの背景ビットマップ解像度(dpi)"
 
 #: ../src/xo-file.c:1717
 msgid ""
@@ -1096,7 +1094,7 @@ msgstr ""
 
 #: ../src/xo-file.c:1720
 msgid " Use the pencil from cursor theme instead of a color dot (true/false)"
-msgstr "カーソルを色つきの点ではなく鉛筆にする(true/false)" # TODO
+msgstr "カーソルを色つきの点ではなく鉛筆にする(true/false)"
 
 #: ../src/xo-file.c:1723
 msgid " default pen color"
@@ -1112,7 +1110,7 @@ msgstr "定規モードで標準ペンを使う(true/false)"
 
 #: ../src/xo-file.c:1734
 msgid " default pen is in shape recognizer mode (true/false)"
-msgstr "形状認識モードで標準ペンを使う(true/false)" # TODO
+msgstr "図形認識モードで標準ペンを使う(true/false)"
 
 #: ../src/xo-file.c:1737
 msgid " default eraser thickness (fine = 1, medium = 2, thick = 3)"
@@ -1120,7 +1118,7 @@ msgstr "標準消しゴム太さ(細 = 1, 中 = 2, 太 = 3)"
 
 #: ../src/xo-file.c:1740
 msgid " default eraser mode (standard = 0, whiteout = 1, strokes = 2)"
-msgstr "標準消しゴムモード(標準 = 0, 塗りつぶし = 1, ストローク = 2)" # TODO
+msgstr "標準消しゴムモード(標準 = 0, 白塗りつぶし = 1, ストローク = 2)"
 
 #: ../src/xo-file.c:1743
 msgid " default highlighter color"
@@ -1136,7 +1134,7 @@ msgstr "定規モードで標準ハイライトを使う(true/false)"
 
 #: ../src/xo-file.c:1754
 msgid " default highlighter is in shape recognizer mode (true/false)"
-msgstr "形状認識モードで標準ハイライトを使う(true/false)"
+msgstr "図形認識モードで標準ハイライトを使う(true/false)"
 
 #: ../src/xo-file.c:1757
 msgid ""
@@ -1151,7 +1149,7 @@ msgid ""
 " button 2 brush linked to primary brush (true/false) (overrides all other "
 "settings)"
 msgstr ""
-" ボタン2ブラシを主要ブラシにする(true/false) (他の設定を上書きします)" # TODO
+" ボタン2ブラシを主要ブラシにする(true/false) (他の設定を上書きします)"
 
 #: ../src/xo-file.c:1763
 msgid " button 2 brush color (for pen or highlighter only)"
@@ -1163,11 +1161,11 @@ msgstr "ボタン2ブラシ太さ(細 = 1, 中 = 2, 太 = 3)"
 
 #: ../src/xo-file.c:1774
 msgid " button 2 ruler mode (true/false) (for pen or highlighter only)"
-msgstr "ボタン2定規モード(true/false)(ペンとハイライトのみ)" # TODO
+msgstr "ボタン2定規モード(true/false)(ペンとハイライトのみ)"
 
 #: ../src/xo-file.c:1778
 msgid " button 2 shape recognizer mode (true/false) (pen or highlighter only)"
-msgstr "ボタン2形状認識モード(true/false)(ペンとハイライトのみ)" # TODO
+msgstr "ボタン2図形認識モード(true/false)(ペンとハイライトのみ)"
 
 #: ../src/xo-file.c:1782
 msgid " button 2 eraser mode (eraser only)"
@@ -1186,7 +1184,7 @@ msgid ""
 " button 3 brush linked to primary brush (true/false) (overrides all other "
 "settings)"
 msgstr ""
-"ボタン3ブラシを主要ブラシにする(true/false) (他の設定を上書きします)" # TODO
+"ボタン3ブラシを主要ブラシにする(true/false) (他の設定を上書きします)"
 
 #: ../src/xo-file.c:1791
 msgid " button 3 brush color (for pen or highlighter only)"
@@ -1198,27 +1196,27 @@ msgstr "ボタン3ブラシ太さ(ペンとハイライトのみ)"
 
 #: ../src/xo-file.c:1802
 msgid " button 3 ruler mode (true/false) (for pen or highlighter only)"
-msgstr "ボタン3定規モード(true/false)(ペンとハイライトのみ)" # TODO
+msgstr "ボタン3定規モード(true/false)(ペンとハイライトのみ)"
 
 #: ../src/xo-file.c:1806
 msgid " button 3 shape recognizer mode (true/false) (pen or highlighter only)"
-msgstr "ボタン3形状認識モード(true/false)(ペンとハイライトのみ)" # TODO
+msgstr "ボタン3図形認識モード(true/false)(ペンとハイライトのみ)"
 
 #: ../src/xo-file.c:1810
 msgid " button 3 eraser mode (eraser only)"
-msgstr "ボタン3消しゴムモード(消しゴムのみ)" # TODO
+msgstr "ボタン3消しゴムモード(消しゴムのみ)"
 
 #: ../src/xo-file.c:1814
 msgid " thickness of the various pens (in points, 1 pt = 1/72 in)"
-msgstr "ペンの太さ(ポイント指定, 1ポイント=1/72インチ)"
+msgstr "ペンの太さ(ポイント指定, 1ポイント = 1/72インチ)"
 
 #: ../src/xo-file.c:1820
 msgid " thickness of the various erasers (in points, 1 pt = 1/72 in)"
-msgstr "消しゴムの太さ(ポイント指定, 1ポイント=1/72インチ)"
+msgstr "消しゴムの太さ(ポイント指定, 1ポイント = 1/72インチ)"
 
 #: ../src/xo-file.c:1825
 msgid " thickness of the various highlighters (in points, 1 pt = 1/72 in)"
-msgstr "ハイライトの太さ(ポイント指定, 1ポイント=1/72インチ)"
+msgstr "ハイライトの太さ(ポイント指定, 1ポイント = 1/72インチ)"
 
 #: ../src/xo-file.c:1830
 msgid " name of the default font"
@@ -1234,23 +1232,21 @@ msgid ""
 " This file is generated automatically upon saving preferences.\n"
 " Use caution when editing this file manually.\n"
 msgstr ""
-" Xournal configuration file.\n"
-" This file is generated automatically upon saving preferences.\n"
-" Use caution when editing this file manually.\n"
+## /settings
 
 #: ../src/xo-misc.c:1370
 #, c-format
 msgid " of %d"
-msgstr "%dの" # TODO
+msgstr "/%d"
 
 #: ../src/xo-misc.c:1375
 msgid "Background"
-msgstr "背景"
+msgstr ""
 
 #: ../src/xo-misc.c:1383
 #, c-format
 msgid "Layer %d"
-msgstr "レイヤ %d"
+msgstr ""
 
 #: ../src/xo-misc.c:1507
 #, c-format
