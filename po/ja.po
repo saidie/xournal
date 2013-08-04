@@ -910,70 +910,69 @@ msgstr "背景'%s'を開けませんでした。"
 msgid "Unable to render one or more PDF pages."
 msgstr "いくつかのPDFのページを描画できませんでした。"
 
-## settings
 #: ../src/xo-file.c:1599
 msgid " the display resolution, in pixels per inch"
-msgstr "ディスプレイ解像度(ピクセル/インチ)"
+msgstr " ディスプレイ解像度(ピクセル/インチ)"
 
 #: ../src/xo-file.c:1602
 msgid " the initial zoom level, in percent"
-msgstr "起動時ズームレベル(%)"
+msgstr " 起動時ズームレベル(%)"
 
 #: ../src/xo-file.c:1605
 msgid " maximize the window at startup (true/false)"
-msgstr "起動時に最大化(true/false)"
+msgstr " 起動時に最大化(true/false)"
 
 #: ../src/xo-file.c:1608
 msgid " start in full screen mode (true/false)"
-msgstr "フルスクリーンモードで起動(true/false)"
+msgstr " フルスクリーンモードで起動(true/false)"
 
 #: ../src/xo-file.c:1611
 msgid " the window width in pixels (when not maximized)"
-msgstr "最大化しない時のウィンドウの幅(ピクセル)"
+msgstr " 非最大化時のウィンドウの幅(ピクセル)"
 
 #: ../src/xo-file.c:1614
 msgid " the window height in pixels"
-msgstr "ウィンドウの高さ(ピクセル)"
+msgstr " 非最大化時のウィンドウの高さ(ピクセル)"
 
 #: ../src/xo-file.c:1617
 msgid " scrollbar step increment (in pixels)"
-msgstr "スクロールバーの刻み幅(ピクセル)"
+msgstr " スクロールバーの一ステップ増加量(ピクセル)"
 
 #: ../src/xo-file.c:1620
 msgid " the step increment in the zoom dialog box"
-msgstr "ズームダイアログボックスでの増加量"
+msgstr " ズームダイアログボックスの一ステップ増加量"
 
 #: ../src/xo-file.c:1623
 msgid " the multiplicative factor for zoom in/out"
-msgstr "拡大/縮小時の変化倍率"
+msgstr " 拡大/縮小の変化倍率"
 
 #: ../src/xo-file.c:1626
 msgid " document view (true = continuous, false = single page)"
-msgstr "ドキュメント表示(true = 連続したページ, false = 単一ページ)"
+msgstr " ドキュメント表示方法(true = 連続ページ, false = 単一ページ)"
 
 #: ../src/xo-file.c:1629
 msgid " use XInput extensions (true/false)"
-msgstr "XInput拡張を使う(true/false)"
+msgstr " XInput拡張を使う(true/false)"
 
 #: ../src/xo-file.c:1632
 msgid " discard Core Pointer events in XInput mode (true/false)"
-msgstr "XInputモードのコアポインタイベントを無視する(true/false)"
+msgstr " XInputモードでのCore Pointerイベントを無視する(true/false)"
 
 #: ../src/xo-file.c:1635
 msgid " ignore events from other devices while drawing (true/false)"
-msgstr "描画中は他のデバイスからのイベントを無視する(true/false)"
+msgstr " 描画中は他のデバイスからのイベントを無視する(true/false)"
 
 #: ../src/xo-file.c:1638
 msgid " always map eraser tip to eraser (true/false)"
-msgstr "常に消しゴムチップを消しゴムに対応させる(true/false)"
+msgstr " 常にテールスイッチを消しゴムに対応させる(true/false)"
 
 #: ../src/xo-file.c:1641
 msgid ""
 " buttons 2 and 3 switch mappings instead of drawing (useful for some "
 "tablets) (true/false)"
 msgstr ""
-"ボタン2と3は描画の代わりにボタンマッピングを交換する (いくつかの "
-"タブレットで有用) (true/false)"
+" ボタン2と3をマッピング切り替えに使う(いくつかの"
+"タブレットで有用)(true/false)"
 
 #: ../src/xo-file.c:1644
 msgid ""
@@ -983,19 +982,19 @@ msgstr ""
 
 #: ../src/xo-file.c:1647
 msgid " default path for open/save (leave blank for current directory)"
-msgstr "開く/保存の時のデフォルトパス(空欄のままでカレントディレクトリ)"
+msgstr " 開く/保存の際のデフォルトパス(空欄でカレントディレクトリ)"
 
 #: ../src/xo-file.c:1650
 msgid " use pressure sensitivity to control pen stroke width (true/false)"
-msgstr "筆圧感度に応じて筆跡の太さを変える(true/false)"
+msgstr " 筆圧感知を用いてストロークの太さを制御する(true/false)"
 
 #: ../src/xo-file.c:1653
 msgid " minimum width multiplier"
-msgstr "幅の乗数の最小値"
+msgstr " 最小筆圧でのストローク幅の倍率"
 
 #: ../src/xo-file.c:1656
 msgid " maximum width multiplier"
-msgstr "幅の乗数の最大値"
+msgstr " 最大筆圧でのストローク幅の倍率"
 
 #: ../src/xo-file.c:1659
 msgid ""
@@ -1007,141 +1006,141 @@ msgstr ""
 
 #: ../src/xo-file.c:1662
 msgid " interface components in fullscreen mode, from top to bottom"
-msgstr "フルスクリーンモードで表示するコンポーネント(上から下に)"
+msgstr " フルスクリーンモードで表示するコンポーネント(上から下に)"
 
 #: ../src/xo-file.c:1665
 msgid " interface has left-handed scrollbar (true/false)"
-msgstr "スクロールバーを左側にする(true/false)"
+msgstr " スクロールバーを左側にする(true/false)"
 
 #: ../src/xo-file.c:1668
 msgid " hide some unwanted menu or toolbar items (true/false)"
-msgstr "不必要なメニューやツールバーの項目を隠す(true/false)"
+msgstr " 不必要なメニューやツールバーの項目を隠す(true/false)"
 
 #: ../src/xo-file.c:1671
 msgid ""
 " interface items to hide (customize at your own risk!)\n"
 " see source file xo-interface.c for a list of item names"
 msgstr ""
-" 隠す項目 (自己責任でカスタマイズしてください!)\n"
-" 項目名のリストは xo-interface.c のソースを参照してください"
+" 隠す項目(自己責任でカスタマイズしてください!)\n"
+" 項目名のリストはxo-interface.cのソースを参照してください"
 
 #: ../src/xo-file.c:1674
 msgid ""
 " highlighter opacity (0 to 1, default 0.5)\n"
 " warning: opacity level is not saved in xoj files!"
 msgstr ""
-" ハイライト透明度 (0 から 1, デフォルトは 0.5)\n"
-" 注意: 透明度レベルは xoj ファイルには保存されません!"
+" ハイライトの不透明度(0 から 1, デフォルトは 0.5)\n"
+" 注意: 不透明度は xoj ファイルには保存されません!"
 
 #: ../src/xo-file.c:1677
 msgid " auto-save preferences on exit (true/false)"
-msgstr "終了時に設定を自動的に保存する(true/false)"
+msgstr " 終了時に設定を自動保存する(true/false)"
 
 #: ../src/xo-file.c:1680
 msgid " force PDF rendering through cairo (slower but nicer) (true/false)"
-msgstr "cairoでPDFを描画する(遅いが高品質)(true/false)"
+msgstr " cairoでPDFを描画する(遅いが高品質)(true/false)"
 
 #: ../src/xo-file.c:1684
 msgid " the default page width, in points (1/72 in)"
-msgstr "標準ページ幅(ポイント指定, 1ポイント = 1/72インチ)"
+msgstr " 標準ページ幅(ポイント指定, 1ポイント = 1/72インチ)"
 
 #: ../src/xo-file.c:1687
 msgid " the default page height, in points (1/72 in)"
-msgstr "標準ページ高さ(ポイント指定, 1ポイント = 1/72インチ)"
+msgstr " 標準ページ高さ(ポイント指定, 1ポイント = 1/72インチ)"
 
 #: ../src/xo-file.c:1690
 msgid " the default paper color"
-msgstr "標準ページ背景色"
+msgstr " 標準ページ背景色"
 
 #: ../src/xo-file.c:1695
 msgid " the default paper style (plain, lined, ruled, or graph)"
-msgstr "標準用紙スタイル(無地, 縦線付き横罫, 横罫, 方眼)"
+msgstr " 標準用紙スタイル(plain, lined, ruled, graph)"
 
 #: ../src/xo-file.c:1698
 msgid " apply paper style changes to all pages (true/false)"
-msgstr "用紙スタイルの変更をすべてのページに適用(true/false)"
+msgstr " 用紙スタイルの変更をすべてのページに適用(true/false)"
 
 #: ../src/xo-file.c:1701
 msgid " preferred unit (cm, in, px, pt)"
-msgstr "使用する単位(cm, in, px, pt)"
+msgstr " 使用する単位(cm, in, px, pt)"
 
 #: ../src/xo-file.c:1704
 msgid " include paper ruling when printing or exporting to PDF (true/false)"
-msgstr "印刷とPDFエクスポートの時、罫線を含める(true/false)"
+msgstr " 印刷とPDFエクスポートの時、罫線を含める(true/false)"
 
 #: ../src/xo-file.c:1707
 msgid " just-in-time update of page backgrounds (true/false)"
-msgstr "背景を自動で更新する(true/false)"
+msgstr " 背景の更新を漸進的に行う(true/false)"
 
 #: ../src/xo-file.c:1710
 msgid ""
 " bitmap resolution of PS/PDF backgrounds rendered using ghostscript (dpi)"
 msgstr ""
-"ghostscriptに渡すPS/PDFの背景ビットマップ解像度(dpi)"
+" ghostscriptに渡す背景PS/PDFのビットマップ解像度(dpi)"
 
 #: ../src/xo-file.c:1713
 msgid ""
 " bitmap resolution of PDF backgrounds when printing with libgnomeprint (dpi)"
-msgstr "libgnomeprintに渡すPDFの背景ビットマップ解像度(dpi)"
+msgstr " libgnomeprintに渡す背景PDFのビットマップ解像度(dpi)"
 
 #: ../src/xo-file.c:1717
 msgid ""
 " selected tool at startup (pen, eraser, highlighter, selectregion, "
 "selectrect, vertspace, hand, image)"
 msgstr ""
-"起動時に選択するツール(pen, eraser, highlighter, selectregion, "
+" 起動時に選択されているツール(pen, eraser, highlighter, selectregion, "
 "selectrect, vertspace, hand, image)"
 
 #: ../src/xo-file.c:1720
 msgid " Use the pencil from cursor theme instead of a color dot (true/false)"
-msgstr "カーソルを色つきの点ではなく鉛筆にする(true/false)"
+msgstr " カーソルを色つきの点ではなく鉛筆にする(true/false)"
 
 #: ../src/xo-file.c:1723
 msgid " default pen color"
-msgstr "標準ペン色"
+msgstr " 標準ペン色"
 
 #: ../src/xo-file.c:1728
 msgid " default pen thickness (fine = 1, medium = 2, thick = 3)"
-msgstr "標準ペン太さ(細 = 1, 中 = 2, 太 = 3)"
+msgstr " 標準ペン太さ(細 = 1, 中 = 2, 太 = 3)"
 
 #: ../src/xo-file.c:1731
 msgid " default pen is in ruler mode (true/false)"
-msgstr "定規モードで標準ペンを使う(true/false)"
+msgstr " 標準ペンを定規モードで使う(true/false)"
 
 #: ../src/xo-file.c:1734
 msgid " default pen is in shape recognizer mode (true/false)"
-msgstr "図形認識モードで標準ペンを使う(true/false)"
+msgstr " 標準ペンを図形認識モードで使う(true/false)"
 
 #: ../src/xo-file.c:1737
 msgid " default eraser thickness (fine = 1, medium = 2, thick = 3)"
-msgstr "標準消しゴム太さ(細 = 1, 中 = 2, 太 = 3)"
+msgstr " 標準消しゴム太さ(細 = 1, 中 = 2, 太 = 3)"
 
 #: ../src/xo-file.c:1740
 msgid " default eraser mode (standard = 0, whiteout = 1, strokes = 2)"
-msgstr "標準消しゴムモード(標準 = 0, 修正液 = 1, ストローク = 2)"
+msgstr " 標準消しゴムモード(標準 = 0, 修正液 = 1, ストローク = 2)"
 
 #: ../src/xo-file.c:1743
 msgid " default highlighter color"
-msgstr "標準ハイライト色"
+msgstr " 標準ハイライト色"
 
 #: ../src/xo-file.c:1748
 msgid " default highlighter thickness (fine = 1, medium = 2, thick = 3)"
-msgstr "標準ハイライト太さ(細 = 1, 中 = 2, 太 = 3)"
+msgstr " 標準ハイライト太さ(細 = 1, 中 = 2, 太 = 3)"
 
 #: ../src/xo-file.c:1751
 msgid " default highlighter is in ruler mode (true/false)"
-msgstr "定規モードで標準ハイライトを使う(true/false)"
+msgstr " 標準ハイライトを定規モードで使う(true/false)"
 
 #: ../src/xo-file.c:1754
 msgid " default highlighter is in shape recognizer mode (true/false)"
-msgstr "図形認識モードで標準ハイライトを使う(true/false)"
+msgstr " 標準ハイライトを図形認識モードで使う(true/false)"
 
 #: ../src/xo-file.c:1757
 msgid ""
 " button 2 tool (pen, eraser, highlighter, text, selectregion, selectrect, "
 "vertspace, hand, image)"
 msgstr ""
-" ボタン2割当 (pen, eraser, highlighter, text, selectregion, selectrect, "
+" ボタン2割当(pen, eraser, highlighter, text, selectregion, selectrect, "
 "vertspace, hand, image)"
 
 #: ../src/xo-file.c:1760
@@ -1149,34 +1148,34 @@ msgid ""
 " button 2 brush linked to primary brush (true/false) (overrides all other "
 "settings)"
 msgstr ""
-" ボタン2ブラシを主要ブラシにする(true/false) (他の設定を上書きします)"
+" ボタン2のブラシをメインブラシと同じにする(true/false)(他の設定を上書きします)"
 
 #: ../src/xo-file.c:1763
 msgid " button 2 brush color (for pen or highlighter only)"
-msgstr "ボタン2ブラシ色(ペンとハイライトのみ)"
+msgstr " ボタン2ブラシ色(ペンとハイライトのみ)"
 
 #: ../src/xo-file.c:1770
 msgid " button 2 brush thickness (pen, eraser, or highlighter only)"
-msgstr "ボタン2ブラシ太さ(細 = 1, 中 = 2, 太 = 3)"
+msgstr " ボタン2ブラシ太さ(ペン, 消しゴム, ハイライトのみ)"
 
 #: ../src/xo-file.c:1774
 msgid " button 2 ruler mode (true/false) (for pen or highlighter only)"
-msgstr "ボタン2定規モード(true/false)(ペンとハイライトのみ)"
+msgstr " ボタン2定規モード(true/false)(ペンとハイライトのみ)"
 
 #: ../src/xo-file.c:1778
 msgid " button 2 shape recognizer mode (true/false) (pen or highlighter only)"
-msgstr "ボタン2図形認識モード(true/false)(ペンとハイライトのみ)"
+msgstr " ボタン2図形認識モード(true/false)(ペンとハイライトのみ)"
 
 #: ../src/xo-file.c:1782
 msgid " button 2 eraser mode (eraser only)"
-msgstr "ボタン2消しゴムモード(消しゴムのみ)"
+msgstr " ボタン2消しゴムモード(消しゴムのみ)"
 
 #: ../src/xo-file.c:1785
 msgid ""
 " button 3 tool (pen, eraser, highlighter, text, selectregion, selectrect, "
 "vertspace, hand, image)"
 msgstr ""
-"ボタン3設定 (pen, eraser, highlighter, text, selectregion, selectrect, "
+" ボタン3割当(pen, eraser, highlighter, text, selectregion, selectrect, "
 "vertspace, hand, image)"
 
 #: ../src/xo-file.c:1788
@@ -1184,47 +1183,47 @@ msgid ""
 " button 3 brush linked to primary brush (true/false) (overrides all other "
 "settings)"
 msgstr ""
-"ボタン3ブラシを主要ブラシにする(true/false) (他の設定を上書きします)"
+" ボタン3のブラシをメインブラシと同じにする(true/false)(他の設定を上書きします)"
 
 #: ../src/xo-file.c:1791
 msgid " button 3 brush color (for pen or highlighter only)"
-msgstr "ボタン3ブラシ色(ペンとハイライトのみ)"
+msgstr " ボタン3ブラシ色(ペンとハイライトのみ)"
 
 #: ../src/xo-file.c:1798
 msgid " button 3 brush thickness (pen, eraser, or highlighter only)"
-msgstr "ボタン3ブラシ太さ(ペンとハイライトのみ)"
+msgstr " ボタン3ブラシ太さ(ペン, 消しゴム, ハイライトのみ)"
 
 #: ../src/xo-file.c:1802
 msgid " button 3 ruler mode (true/false) (for pen or highlighter only)"
-msgstr "ボタン3定規モード(true/false)(ペンとハイライトのみ)"
+msgstr " ボタン3定規モード(true/false)(ペンとハイライトのみ)"
 
 #: ../src/xo-file.c:1806
 msgid " button 3 shape recognizer mode (true/false) (pen or highlighter only)"
-msgstr "ボタン3図形認識モード(true/false)(ペンとハイライトのみ)"
+msgstr " ボタン3図形認識モード(true/false)(ペンとハイライトのみ)"
 
 #: ../src/xo-file.c:1810
 msgid " button 3 eraser mode (eraser only)"
-msgstr "ボタン3消しゴムモード(消しゴムのみ)"
+msgstr " ボタン3消しゴムモード(消しゴムのみ)"
 
 #: ../src/xo-file.c:1814
 msgid " thickness of the various pens (in points, 1 pt = 1/72 in)"
-msgstr "ペンの太さ(ポイント指定, 1ポイント = 1/72インチ)"
+msgstr " ペンの太さ(ポイント指定, 1ポイント = 1/72インチ)"
 
 #: ../src/xo-file.c:1820
 msgid " thickness of the various erasers (in points, 1 pt = 1/72 in)"
-msgstr "消しゴムの太さ(ポイント指定, 1ポイント = 1/72インチ)"
+msgstr " 消しゴムの太さ(ポイント指定, 1ポイント = 1/72インチ)"
 
 #: ../src/xo-file.c:1825
 msgid " thickness of the various highlighters (in points, 1 pt = 1/72 in)"
-msgstr "ハイライトの太さ(ポイント指定, 1ポイント = 1/72インチ)"
+msgstr " ハイライトの太さ(ポイント指定, 1ポイント = 1/72インチ)"
 
 #: ../src/xo-file.c:1830
 msgid " name of the default font"
-msgstr "標準フォントの名前"
+msgstr " 標準フォントの名前"
 
 #: ../src/xo-file.c:1833
 msgid " default font size"
-msgstr "標準フォントサイズ"
+msgstr " 標準フォントサイズ"
 
 #: ../src/xo-file.c:2011
 msgid ""
@@ -1232,7 +1231,9 @@ msgid ""
 " This file is generated automatically upon saving preferences.\n"
 " Use caution when editing this file manually.\n"
 msgstr ""
-## /settings
+" Xournal設定ファイル\n"
+" このファイルは設定を保存する際に自動的に作成されます。\n"
+" 手動での変更は注意して行なってください。\n"
 
 #: ../src/xo-misc.c:1370
 #, c-format
