@@ -173,7 +173,7 @@ msgstr "現在のレイヤを削除(_y)"
 
 #: ../src/xo-interface.c:706
 msgid "_Flatten"
-msgstr "平たくする(_F)"
+msgstr "平らにする(_F)"
 
 #: ../src/xo-interface.c:715
 msgid "Paper Si_ze"
@@ -243,7 +243,7 @@ msgstr "全てのページに適用(_T)"
 
 #: ../src/xo-interface.c:816
 msgid "_Load Background"
-msgstr "背景画像を読み込む(_L)"
+msgstr "背景を読み込む(_L)"
 
 #: ../src/xo-interface.c:824
 msgid "Background Screens_hot"
@@ -288,7 +288,7 @@ msgstr "画像(_I)"
 
 #: ../src/xo-interface.c:898
 msgid "_Shape Recognizer"
-msgstr "図形認識描画(_S)"
+msgstr "図形認識(_S)"
 
 #: ../src/xo-interface.c:905
 msgid "Ru_ler"
@@ -340,7 +340,7 @@ msgstr "灰(_a)"
 
 #: ../src/xo-interface.c:1003
 msgid "light bl_ue"
-msgstr "水色(_u)"
+msgstr "薄青(_u)"
 
 #: ../src/xo-interface.c:1009
 msgid "light gr_een"
@@ -399,7 +399,7 @@ msgstr "標準(_s)"
 
 #: ../src/xo-interface.c:1121
 msgid "_whiteout"
-msgstr "白塗りつぶし(_w)"
+msgstr "修正液(_w)"
 
 #: ../src/xo-interface.c:1127
 msgid "_delete strokes"
@@ -471,7 +471,7 @@ msgstr "マッピング切り替えを有効化"
 
 #: ../src/xo-interface.c:1386
 msgid "_Progressive Backgrounds"
-msgstr "先進的な背景(_P)"
+msgstr "背景を漸進的に再描画(_P)"
 
 #: ../src/xo-interface.c:1390
 msgid "Print Paper _Ruling"
@@ -607,7 +607,7 @@ msgstr "画像"
 
 #: ../src/xo-interface.c:1633 ../src/xo-interface.c:1639
 msgid "Shape Recognizer"
-msgstr "図形認識描画"
+msgstr "図形認識"
 
 #: ../src/xo-interface.c:1642 ../src/xo-interface.c:1648
 msgid "Ruler"
@@ -671,7 +671,7 @@ msgstr "灰"
 
 #: ../src/xo-interface.c:1846 ../src/xo-interface.c:1853
 msgid "Light Blue"
-msgstr "水色"
+msgstr "薄青"
 
 #: ../src/xo-interface.c:1858 ../src/xo-interface.c:1865
 msgid "Light Green"
@@ -703,7 +703,7 @@ msgstr "ページ番号を指定"
 
 #: ../src/xo-interface.c:1972
 msgid " of n"
-msgstr ""
+msgstr "/n"
 
 #: ../src/xo-interface.c:1980
 msgid "  Layer:  "
@@ -805,7 +805,7 @@ msgstr "PDFファイル"
 
 #: ../src/xo-callbacks.c:87 ../src/xo-callbacks.c:1494
 msgid "Attach file to the journal"
-msgstr "ファイルの添付"
+msgstr "ファイルをジャーナルに添付する"
 
 #. user aborted on save confirmation
 #: ../src/xo-callbacks.c:141
@@ -845,7 +845,7 @@ msgstr "用紙の色を選ぶ"
 
 #: ../src/xo-callbacks.c:1463
 msgid "Open Background"
-msgstr "背景画像の読み込み"
+msgstr "背景の読み込み"
 
 #: ../src/xo-callbacks.c:1479
 msgid "Bitmap files"
@@ -858,7 +858,7 @@ msgstr "PS/PDFファイル(ビットマップとして)"
 #: ../src/xo-callbacks.c:1517
 #, c-format
 msgid "Error opening background '%s'"
-msgstr "画像'%s'の読み込みに失敗しました。"
+msgstr "背景'%s'の読み込みに失敗しました。"
 
 #: ../src/xo-callbacks.c:2110
 msgid "Select Font"
@@ -880,7 +880,7 @@ msgstr "pixmapファイル'%s'が見つかりません。"
 #: ../src/xo-file.c:182 ../src/xo-file.c:214
 #, c-format
 msgid "Could not write background '%s'. Continuing anyway."
-msgstr "画像'%s'を書き込めませんが、処理を続行します。"
+msgstr "背景'%s'を書き込めませんが、処理を続行します。"
 
 #: ../src/xo-file.c:326
 #, c-format
@@ -890,7 +890,7 @@ msgstr "ファイルの内容が不正です。"
 #: ../src/xo-file.c:476
 #, c-format
 msgid "Could not open background '%s'. Setting background to white."
-msgstr "画像'%s'が開けませんでした。背景を白にします。"
+msgstr "背景'%s'を開けませんでした。背景を白にします。"
 
 #: ../src/xo-file.c:794
 #, c-format
@@ -898,13 +898,13 @@ msgid ""
 "Could not open background '%s'.\n"
 "Select another file?"
 msgstr ""
-"画像'%s'を開けませんでした。\n"
+"背景'%s'を開けませんでした。\n"
 "別のファイルを開きますか?"
 
 #: ../src/xo-file.c:940
 #, c-format
 msgid "Could not open background '%s'."
-msgstr "画像'%s'を開けませんでした。"
+msgstr "背景'%s'を開けませんでした。"
 
 #: ../src/xo-file.c:1189
 msgid "Unable to render one or more PDF pages."
@@ -1071,7 +1071,7 @@ msgstr "印刷とPDFエクスポートの時、罫線を含める(true/false)"
 
 #: ../src/xo-file.c:1707
 msgid " just-in-time update of page backgrounds (true/false)"
-msgstr "背景画像を自動で更新する(true/false)"
+msgstr "背景を自動で更新する(true/false)"
 
 #: ../src/xo-file.c:1710
 msgid ""
@@ -1118,7 +1118,7 @@ msgstr "標準消しゴム太さ(細 = 1, 中 = 2, 太 = 3)"
 
 #: ../src/xo-file.c:1740
 msgid " default eraser mode (standard = 0, whiteout = 1, strokes = 2)"
-msgstr "標準消しゴムモード(標準 = 0, 白塗りつぶし = 1, ストローク = 2)"
+msgstr "標準消しゴムモード(標準 = 0, 修正液 = 1, ストローク = 2)"
 
 #: ../src/xo-file.c:1743
 msgid " default highlighter color"
